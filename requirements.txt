@@ -1,6 +1,1 @@
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-statsmodels
+numpy~=1.23.5

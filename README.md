@@ -1,14 +1,9 @@
-# Mathematical-modeling
+# Model_Mathematical
 
-- 数学建模（国赛/美赛），常用算法Python/R的实现
-- 算法的具体原理Markdown在Github中无法正常显示公式，建议使用Typora等编辑器打开
-- 建模绘图/科研绘图代码：[ScienceGallery](https://github.com/xwj770427414/ScienceGallery)
-- Fork, please indicate the source[@Warrick Xu](https://github.com/xwj770427414)
-
+- 数学建模（国赛/美赛），常用算法Python的实现
+- 绘图代码：[ScienceGallery](https://github.com/xwj770427414/ScienceGallery)
 ----------------------
-
 ## 算法目录(待补充)
-
 - [层次分析法(AHP)](https://github.com/xwj770427414/Mathematical-modeling/tree/main/层次分析法AHP) 
 - [熵权法(EWM)](https://github.com/xwj770427414/Mathematical-modeling/tree/main/熵权法EWM)
 - [主成分分析PCA](https://github.com/xwj770427414/Mathematical-modeling/tree/main/主成分分析PCA)

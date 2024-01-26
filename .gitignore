@@ -3,6 +3,7 @@
 .texpadtmp
 # main.pdf
 
+/venv
 # tmp files of ppt,excel documents
 ~$*
 ~$figures.xlsx

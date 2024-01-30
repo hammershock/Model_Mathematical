@@ -19,3 +19,13 @@
 - [缺失数据与异常数据处理](https://github.com/xwj770427414/Mathematical-modeling/tree/main/缺失数据与异常数据处理)
 - [灰色关联分析](https://github.com/xwj770427414/Mathematical-modeling/tree/main/灰色关联分析)
 - [高维数据降维](https://github.com/xwj770427414/Mathematical-modeling/tree/main/高维数据降维)
+
+# 要点
+
+- 假设合理性解释
+- 文字表述清晰
+- 建模要有创造性，但要切合实际
+- 丰富的模型检验
+- 10张以上精美的配图，配色和谐
+
+![image](https://github.com/hammershock/Model_Mathematical/assets/109429530/3a733a11-d4da-4898-bf90-19ba841ed2c6)

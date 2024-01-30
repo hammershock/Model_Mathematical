@@ -8,9 +8,11 @@ import numpy as np
 from prettytable import PrettyTable, SINGLE_BORDER
 
 
-class Entropy_Weight_Method:
+class EntropyWeightMethod:
     """Entropy weight method, 熵权法
-
+    一种客观赋权方法，用于确定各个指标在综合评价中的权重
+    信息熵越小的指标，其所携带的有效信息越多，因此应赋予更高的权重
+    如果某个指标的所有值都很接近，那么这个指标的信息熵就很高，反映出它提供的有效信息较少。
     Parameters
     ----------
     data : ndarray of shape (n_samples, n_features)
@@ -107,4 +109,7 @@ if __name__ == "__main__":
                   [64.176296, 89.846814, 369.843672, 0.462434, 30.688321, 21.345916],
                   [65.382726, 91.535817, 397.763635, 0.484088, 33.005021, 22.957346],
                   [66.534414, 93.148179, 428.561905, 0.507068, 35.560552, 24.734900]])
-    y, s, w = Entropy_Weight_Method(data=x, data_type=[1, 1, 1, 1, 1, 1], scale_min=0.0001, scale_max=0.9999, display=True).fit()
+    # 假设一共有六个指标，所有的指标都是正向指标，越高越好
+    # 正向指标的data_type为1，负向指标的data_type为2
+    y, s, w = EntropyWeightMethod(data=x, data_type=[1, 1, 1, 1, 1, 1], scale_min=0.0001, scale_max=0.9999, display=True).fit()
+    
